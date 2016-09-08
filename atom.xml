@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title></title>
+  <title>Arabic Keyboard 360</title>
   <generator uri="https://github.com/jekyll/jekyll">Jekyll v3.1.1</generator>
     <icon>/apple-touch-icon-precomposed.png</icon>
-  <subtitle></subtitle>
+  <subtitle>Arabic Keyboard 360 is a website and online tool which helps type in arabic language in case you have no arabic keyboard attached to your computer </subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2016-09-08T15:19:25+01:00</updated>
+  <updated>2016-09-08T19:15:37+01:00</updated>
   <id>/</id>
   <author>
     <name></name>
@@ -18,9 +18,9 @@
   
   <entry>
     <title>What is the arabic keyboard ?</title>
-    <link href="/2016/08/08/what-is-the-arabic-keyboard.html"/>
+    <link href="/what-is-the-arabic-keyboard/"/>
     <updated>2016-08-08T00:00:00+01:00</updated>
-    <id>/2016/08/08/what-is-the-arabic-keyboard</id>
+    <id>/what-is-the-arabic-keyboard</id>
     <author>
       <name></name>
       <uri>/</uri>
@@ -125,6 +125,62 @@
 &lt;p&gt;2)Arabic keyboard Browser extension or addon&lt;/p&gt;
 
 &lt;p&gt;You can also use the arabic keyboard in the form of an addon either for Chrome or Firefox&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Arabic keyboard layouts</title>
+    <link href="/arabic-keyboard-layouts/"/>
+    <updated>2016-08-08T00:00:00+01:00</updated>
+    <id>/arabic-keyboard-layouts</id>
+    <author>
+      <name></name>
+      <uri>/</uri>
+      
+    </author>
+    <content type="html">
+      
+      &lt;p&gt;In this post we are going to see differents layouts used by arabic keyboards .&lt;/p&gt;
+
+&lt;h2 id=&quot;the-arabic-keyboard&quot;&gt;The arabic keyboard&lt;/h2&gt;
+
+&lt;p&gt;The arabic keyboard is the keyboard used to type arabic alphabets.It contains both latin and arabic because latin letters and numbers are used for different things which can not be typed in arabic such as emails or urls.&lt;/p&gt;
+
+&lt;h2 id=&quot;arabic-keyboard-layouts&quot;&gt;Arabic keyboard layouts&lt;/h2&gt;
+
+&lt;p&gt;A layout is simply how characters are distributed relatively to each other.Different layouts are used by companies which make keyboards .So lets see the diffrent layouts used by arabic keyboards.&lt;/p&gt;
+
+&lt;h2 id=&quot;arabic-typewriter-layout&quot;&gt;Arabic typewriter layout&lt;/h2&gt;
+
+&lt;p&gt;This one is the first and oldest layout used for typewriters ,it was made by the syrian inventor Selim Shibli Haddad.&lt;/p&gt;
+
+&lt;p&gt;Here is a screenshot of this layout&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arabiclayout1.png&quot; alt=&quot;arabic layout &quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sakhrmsx-arabic-keyboard&quot;&gt;Sakhr/MSX Arabic Keyboard&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arabiclayout2.png&quot; alt=&quot;arabic layout &quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ibm-pc-arabic-keyboard&quot;&gt;IBM PC Arabic Keyboard&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arabiclayout3.png&quot; alt=&quot;arabic layout&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mac-arabic-keyboard&quot;&gt;Mac Arabic Keyboard&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arabiclayout4.png&quot; alt=&quot;arabic layout&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;intellark-arabic-keyboard&quot;&gt;Intellark Arabic Keyboard&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/arabiclayout5.png&quot; alt=&quot;arabic layout&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Arabic_keyboard&quot;&gt;Arabic keyboard&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Intellark&quot;&gt;Intellark&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://oztypewriter.blogspot.ru/2014/10/the-arabic-typewriter-keyboard-and.html&quot;&gt;The arabic typewriter keyboard&lt;/a&gt;&lt;/p&gt;
 
     </content>
   </entry>
