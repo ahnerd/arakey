@@ -1,0 +1,271 @@
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+
+
+body{
+font-family:'Amiri', serif;
+	margin-top: 95px;
+	
+	-webkit-transition: margin 0.4s ease;
+       -moz-transition: margin 0.4s ease;
+         -o-transition: margin 0.4s ease;
+            transition: margin 0.4s ease;
+}
+
+body.shrink{
+	margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+font-family:'Amiri', serif;
+	font-weight: 600;
+}
+
+
+.content .navbar .navbar-brand{
+	padding-left: 0;
+font-family:'Amiri', serif;	font-size: 1.8em;
+	float: none;
+	line-height: 10px;
+	height: 0px;
+	-webkit-transition: font-size 0.4s ease;
+       -moz-transition: font-size 0.4s ease;
+         -o-transition: font-size 0.4s ease;
+            transition: font-size 0.4s ease;
+}
+
+.header{
+	width: 100%;
+	position: absolute;
+	position: fixed;
+	z-index: 999;
+	top:0;
+
+	background-color: #fff;
+	width: 100%;
+}
+
+
+.shrink .navbar{
+	padding: 8px 0 !important;
+}
+
+.shrink .content .navbar .navbar-brand{
+	font-size: 2.3em !important;
+}
+
+.get-it-now a{
+	border: 1px solid rgba(255,255,255,.4);
+	border-radius: 3px;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+a.get-it-now-bottom{
+	border-radius: 3px;
+	border: 1px solid #e54e53;
+	color: #e54e53;
+	padding: 5px 2px !important;	
+	font-size: 18px;
+	margin-bottom: 10px;
+
+	-webkit-transition: all 0.2s ease;
+	       -moz-transition: all 0.2s ease;
+	         -o-transition: all 0.2s ease;
+	            transition: all 0.2s ease;
+}
+
+a.get-it-now-bottom:hover{
+	background: #e54e53;
+	color: #fff;
+}
+
+.content{
+	width: 940px;
+	margin: auto;
+}
+
+.content h4{
+	margin: 20px 0;
+	color: #e54e53;
+}
+
+.content h4 i{
+	font-size: 25px;
+	margin-right: 10px;
+	width: 20px;
+}
+
+.features-container p{
+	margin-left: 37px;
+}
+
+.features-container{
+	margin: 0 0 90px 0;
+}
+
+.features-container h4{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.features-container p{
+	margin-bottom: 30px;
+}
+
+
+.col-md-6{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.features{
+	color:rgb(88, 88, 88);
+}
+
+.noMarginBottom{
+	margin-bottom: 0 !important;
+}
+
+.content h2{
+	color: #e54e53;
+	font-size: 20px;
+}
+
+
+/* ====== MENU ====== */
+
+#bs-example-navbar-collapse-1
+{
+	margin-top: 0px;
+	background-color:rgb(17, 79, 150);
+	border:1px solid rgb(76, 12, 145);
+	border-top:2px solid white;
+	box-shadow: -1px 0 #fff, 1px 0 #5b6c84, 0 -1px 0 #5b6c84, 0 -1px 0 #2b3b4d inset;
+	z-index: 999;
+}
+.content .navbar{
+	margin: 0;
+	background: none;
+	border: 0;
+	height: 0px;
+	padding: 13px 0;
+	padding-bottom: 5px;
+}
+
+.content .navbar .navbar-brand{
+	padding-left: 0;
+	color: #0f0;
+	font-weight: 900;
+}
+.content .navbar-nav a{
+	color: #fff !important;
+	font-weight: 300 !important;
+	font-size: 13px;
+}
+
+.content .navbar-nav a:hover{
+	background: rgba(0,0,0,.07) !important;
+}
+
+.content .navbar-nav li.active a{
+	background: rgba(0,0,0,.07) !important;	
+}
+
+.navbar-toggle:focus{
+	background: none !important;
+	outline: 0;	
+}
+
+.navbar-toggle:hover{
+	background: rgba(0,0,0,.07) !important;
+}
+
+.navbar-toggle{
+	border-color: #fff !important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff !important;
+}
+
+.get-it-now{
+	margin-left: 20px;
+}
+
+/* ====== END MENU ====== */
+
+
+
+/* ====== TO TOP ICON ====== */
+
+.to-top{
+	height: 29px;
+	width: 29px;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 999;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	right: 17px;
+	bottom: 17px;
+	display: none;
+	text-align: center;
+	font-size: 12px;
+
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	     -o-border-radius: 2px;
+	        border-radius: 2px;
+}
+
+.to-top>i{
+	margin-top: 6px;
+}
+
+.to-top:hover{
+	background-color:#42414d!important;
+}
+/* ====== END TO TOP ICON ====== */
+
+
+/* ====== CONTENT ====== */
+
+.section{
+	background: #fff;
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.section h2{
+	margin-top: 0;
+}
+
+.grid-section{
+	/*background-image: none !important;*/
+	/*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+	/*background: #31383b;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* ====== END CONTENT ====== */
+
+
+
+
+
+/* ====== RESPONSIVE DESIGN ====== */
+
+@media only screen and (max-width: 990px) {
+		.content{
+			width: 100%;
+			padding: 0px 10px !important;
+		}	
+}
+
+@media only screen and (max-width: 760px) {
+		.get-it-now{
+			margin-left: 0;
+			margin-top: 40px;
+		}
+}

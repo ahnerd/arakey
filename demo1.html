@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Arabic Keyboard</title>
+
+	<link rel="icon" href="img/favicon.ico" type="image/png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"> <!-- needed for mobile devices -->
+  
+  	<!-- Import font -->
+  	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+  	<!-- Style for Bootstrap -->
+  	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  	
+  	<!-- Custom style for the demo-->
+  	<link rel="stylesheet" href="css/demo.css">
+
+	<link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+	<link rel="stylesheet" href="sortable/ng-sortable.min.css">
+	<link rel="stylesheet" href="app.css">
+	<script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js">
+	  	
+	</script>
+	<link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<style>
+
+	/* == LETS MODIFY SOME COLORS AND STYLE FOR THE DEMO == */
+
+		
+		/* *********** STYLE OF GRID 1 *********** */
+		#search{
+  			float: right;
+  		}
+
+
+		/* *********** STYLE OF GRID 2 *********** */
+		#filter2 li a.selected,
+		#grid2 .thumbnail-overlay .fa{
+			background: #28ac86;
+		}
+		.media-boxes-drop-down-menu > li > a.selected,
+		#grid2 .media-box-date,
+		#grid2 .media-box-author{
+      		color: #28ac86;
+    	}
+    	.media-boxes-drop-down{
+  			float: right;
+  			margin-left: 5px;
+  		}
+
+
+    	/* *********** STYLE OF GRID 3 *********** */
+		#sort2 .media-boxes-drop-down-menu > li > a.selected,
+		#filter3 .media-boxes-drop-down-menu > li > a.selected,
+		#grid3 .media-box-date{
+      		color: #09b0dd;
+    	}  	
+    	#grid3 .thumbnail-overlay .fa{
+			background: #09b0dd;
+		}	
+
+	</style>
+	
+</head>
+<body>
+	
+
+	<div class="header">
+		<div class="content">
+
+			<div class="navbar navbar-default" role="navigation" style="margin-top: 0px;">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header" style="margin-bottom: 0px;">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+			    <a class="navbar-brand" style="padding: 0px;" href="#">
+			    	<img src="img/logo.png" alt="" style="margin-right:5px;padding: 0px;"> Arabic Keyboard
+			    </a>
+			  </div>
+
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			</div><!-- /.navbar -->
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 0px;background-color:gray;border-top:2px solid white;  ">
+			    <ul class="nav navbar-nav" >
+			      <li class="active" ><a href="demo1.html">Demo 1</a></li>
+			      <li class=""><a href="demo2.html">Demo 2</a></li>
+			      <li class=""><a href="demo3.html">Demo 3</a></li>
+			      <li class=""><a href="demo4.html">Demo 4</a></li>
+			      <li class=""><a href="multiple-filters.html">Multiple Filters</a></li>
+			      
+			    </ul>
+			</div>
+
+		</div>
+	</div>
+
+	<!--<div class="section">
+		<div class="content">
+
+			<h2><span class="glyphicon glyphicon-th-large"></span> Grid of Posts with Images, Videos and Sounds.</h2>
+
+			<p>
+				Display your portfolio with thumbnails of different dimensions (width and height) with a powerfull filter system.
+			</p>
+
+		</div>
+	</div>-->
+	<div class="section">
+		<div class="content">
+			<h2><span class="glyphicon glyphicon-th-large"></span> Grid with thumbnails of the same Ratio</h2>
+			<p>You can specify the ratio for the thumbnails and the plugin will crop the height and center it. Very handy for thumbnails of the same dimensions.</p>
+		</div>
+	</div>
+
+	<div class="grid-section" style="background-image: url('img/bg-blur2.jpg');">
+
+		<div class="content grid-container">
+			
+			
+			
+
+			<div id="grid2">
+					<div id="rightPanel" class="">
+						<div class="keyboardAreaWrapper" id="board">
+								<!--<div class="keyboardOptionsArea clearfix">
+									<div class="left">
+										<label for="transliterateTyping">
+											<input 
+												type="checkbox" 
+												id="transliterateTyping" 
+												ng-change="saveState()"
+												ng-model="options['transliterateTyping']" 
+												>
+											Transliterate typing
+										</label>
+									</div>
+									<div class="right">
+										<span ng-show="options['transliterateTyping']">
+											Transliteration scheme
+											<select 
+												id="transliterationScheme" 
+												ng-change="saveState()"
+												ng-model="transliterationScheme" 
+												ng-options="transliterationScheme for transliterationScheme in transliterationSchemeOptions">
+											</select>
+											<a class="addButton" href="#addTransliterationScheme">+</a>
+										</span>
+									</div>
+								</div>-->
+								<!--<div id="addTransliterationScheme">
+									<div class="popup">
+										<h2>Let's contribute!</h2>
+										<p>For you developers out there, I uploads the whole code of this app on github as open source project. So, by simply forking it, you could help me extend the features and functionality of this keyboard app, including adding more transliteration system. The transliteration files is in JSON format so you could just copy the existing transliteration files and edit it from there.</p>
+										
+										<p>So that's it, I'll be waiting for your pull request ;)</p>
+										<a href="https://github.com/emkamal/angular-arabic-keyboard">https://github.com/emkamal/angular-arabic-keyboard</a>
+										<a class="closebutton" href="#">&times;</a>
+									</div>
+								</div>-->
+								
+								<div style="width:95%;margin:auto;" class="keyboardArea" ng-model="transliterationKeys[transliterationScheme]" >
+									<div 
+										class="buttonGroupWrapper clearfix embedshadow"
+										ng-repeat="group in transliterationKeys[transliterationScheme]" 
+										ng-if="group.groupName != 'grammar rules'" 
+
+									>
+										<!--<div class="buttonGroupTitle" as-sortable-item-handle><h3>{{group.groupName}}</h3></div>-->
+										<div class="clearfix">
+											<a 
+												class="embedshadow"
+												ng-repeat="char in group.groupSet" 
+												ng-click="write(char.arabicChar)"
+												title="{{char.name}}" 
+											>
+												<div class="arabChar" ng-switch on="group.groupName == 'diacritics' || char.writingStyle == 'needTatweel'">
+													<span ng-switch-when="true">{{char.arabicChar}}&#x0640;&#x0640;</span>
+													<span ng-switch-default>{{char.arabicChar}}</span>
+												</div>
+												<div class="transChar num{{char.transliteration.length}}">
+													<ul>
+														<li ng-repeat="letter in char.transliteration" ng-if="letter != '[void]'">{{letter}}</li>
+													</ul>
+												</div>
+											</a>
+										</div>
+									</div>
+									
+								</div>
+								<div class="keyboardDesc">
+								</div>
+					</div>
+			</div>
+
+
+			        
+			</div> <!-- #container -->		
+
+		</div>
+
+	</div>
+
+	<div class="section">
+		<div class="content">
+			<h2><span class="glyphicon glyphicon-th-large"></span> Grid of Videos</h2>
+			<p>
+				You can use this plugin for any purpose, even customize it for your own needs.
+			</p>
+		</div>
+	</div>
+
+
+
+	<div class="section">
+		<div class="content">
+			
+			<div class="features-container">
+
+				<div class="row">
+  					<div class="col-md-6">
+						<h4><i class="fa fa-user"></i> Each media box is independent</h4>
+						<p>Your boxes don't have to be the same, so make any combination that you can think with images, videos, sounds, iframes, text, HTML, etc.</p>
+  					</div>
+  					<div class="col-md-6">
+  						<h4><i class="fa fa-expand"></i> Put anything on the popup</h4>
+  						<p>You can load images, Youtube/Vimeo videos, SoundCloud sounds, iframes, HTML, Google maps, Web pages or content via AJAX.</p>
+  					</div>
+				</div>
+
+				<div class="row">
+  					<div class="col-md-6">
+						<h4><i class="fa fa-arrows-alt"></i> Fully Responsive</h4>
+						<p>The grid will automatically adapt to its container taking care of keeping the right proportions.</p>
+  					</div>
+  					<div class="col-md-6">
+  						<h4><i class="fa fa-tablet "></i> Different resolutions</h4>
+  						<p>You can define a different grid layout for phones, tablets, desktops and all kind of resolutions.</p>
+  					</div>
+				</div>
+
+				<div class="row">
+  					<div class="col-md-6">
+						<h4><i class="fa fa-sort-amount-asc"></i> Powerful filter system</h4>
+						<p>You can make all kind of complicated filters and define your own HTML markup.</p>
+  					</div>
+  					<div class="col-md-6">
+  						<h4><i class="fa fa-th"></i> Super fast grid system</h4>
+  						<p>The plugin is using Isotope v2 which is one of the fastest and powerful grid systems out there, using the best browser features when available.</p>
+  					</div>
+				</div>
+				
+				<div class="row">
+  					<div class="col-md-6">
+						<h4><i class="fa fa-hand-o-up"></i> Overlay Effect</h4>
+						<p>Several overlay effects that are using CSS3 transitions in order to give you the best performance available.</p>
+  					</div>
+  					<div class="col-md-6">
+  						<h4><i class="fa fa-file-image-o"></i> Define the Ratio</h4>
+  						<p>You can specify the ratio of the thumbnails and the plugin will cut and center them for you with CSS techniques (only cuts the height, the width remains the same).
+  					</div>
+				</div>
+
+				<div class="row">
+  					<div class="col-md-6">
+						<h4><i class="fa fa-pencil"></i> Fully Customizable</h4>
+						<p>You can adapt the plugin to your needs, it is very simple to customize it via CSS or JS (if you know it).</p>
+  					</div>
+  					<div class="col-md-6">
+  						<h4><i class="fa fa-file-o"></i> Documentation</h4>
+  						<p>You can read the documentation for free <a href="../documentation/index.html">here</a>, and feel free to ask any question you may have.</p>
+  					</div>
+				</div>
+				
+			</div>
+
+			<div style="text-align:center;" >
+			    
+		      	<br>
+		      	<br>
+		      	<a style="color:#f55856;" href="">digisol</a> 2016 © All rights reserved.
+		  </div>
+		</div>
+	</div>
+
+	<div class="to-top">
+		<i class="glyphicon glyphicon-chevron-up"></i>
+	</div>
+
+	<!-- Bootstrap JS file -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="js/demo.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>WebFont.load({classes: false,events: false,
+									google: {
+				families: ['Oswald:400']
+			}
+					});
+	</script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.min.js"></script>
+  
+  <!--<script src="bower_components/angular/angular.js"></script>-->
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-cookie/angular-cookie.min.js"></script>
+  <script src="sortable/ng-sortable.min.js"></script>
+  <script src="ZeroClipboard.min.js"></script>
+  <script src="app.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+
+
+
+</body>
+</html>
