@@ -7,7 +7,7 @@
   <subtitle>Arabic Keyboard 360 is a website and online tool which helps type in arabic language in case you have no arabic keyboard attached to your computer </subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2016-09-10T14:44:39+01:00</updated>
+  <updated>2016-09-11T14:31:33+01:00</updated>
   <id>/</id>
   <author>
     <name></name>
@@ -17,10 +17,10 @@
 
   
   <entry>
-    <title>Using the arabic keyboard Firefox extension</title>
-    <link href="/using-the-arabic-keyboard-firefox-extension/"/>
+    <title>How to Use The Google Keyboard on Your Samsung Android Device</title>
+    <link href="/how-to-use-the-google-keyboard-on-your-samsung-android-device/"/>
     <updated>2016-09-09T00:00:00+01:00</updated>
-    <id>/using-the-arabic-keyboard-firefox-extension</id>
+    <id>/how-to-use-the-google-keyboard-on-your-samsung-android-device</id>
     <author>
       <name></name>
       <uri>/</uri>
@@ -28,7 +28,89 @@
     </author>
     <content type="html">
       
-      
+      &lt;p&gt;In this post i&#39;m going to show you how to use the Google Android keyboard(Created by Android team) instead of Samsung keyboard on your android device. &lt;/p&gt;
+
+&lt;p&gt;
+	This is your keyboard before replacing it.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/samsung-keyboard.png&quot; alt=&quot;samsung android keyboard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+	This is your keyboard after replacing it with official android keyboard.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/google-android-keyboard.png&quot; alt=&quot;google android keyboard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+	So go ahead and launch your Play Store on your android device.
+
+	Next you need to search for the official android keyboad on the Play Store,just go to the search bar and enter &quot;google keyboard&quot;.
+	You&#39;ll get the link to the official keyboard on the first search result. 
+
+
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/google-keyboard-play-store.png&quot; alt=&quot;google keyboard play store&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	Next you just need to install like any normal app
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/install-google-keyboard.png&quot; alt=&quot;install google keyboard play store&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+	After installing the Google keyboard .Now go to the home screen of your android device and look for its icon .Tap it to launch the keyboard app.
+&lt;/p&gt;
+
+&lt;p&gt;
+	Now you need to follow a one time configuration guide.Tap on &quot;Get started&quot;. 
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/google-keyboard-get-started.png &quot; alt=&quot; google keyboard  get started play store&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+	Next tap on enable in settings.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/google-keyboard-enable-settings.png&quot; alt=&quot; google keyboard  enable settings &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+	Now you need to enable the second keyboard
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/google-keyboard-settings.png &quot; alt=&quot; google keyboard settings &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+	Don&#39;t worry about this attention message just tap on OK.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/google-keyboard-attention.png &quot; alt=&quot; google keyboard attention &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+	Next tap switch input methods.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/google-keyboard-switch-input-methods.png&quot; alt=&quot;google keyboard switch input methods &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+	Select English (US) Google keyboard.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/google-keyboard-select.png&quot; alt=&quot;google keyboard select &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+	This all what you need to now just launch any app that uses the keyboard to see the keyboard you&#39;ve just configured as your default keyboard for samsung android device.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/google-keyboard-finish.png&quot; alt=&quot;google keyboard finish &quot; /&gt;&lt;/p&gt;
+
+&lt;h1&gt;
+	Conclusion
+&lt;/h1&gt;
+
+&lt;p&gt;In this post we have seen how to switch the samsung keyboard with the official Google Android device created by Android team.&lt;/p&gt;
+
 
     </content>
   </entry>
