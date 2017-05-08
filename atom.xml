@@ -7,7 +7,7 @@
   <subtitle>Arabic Keyboard 360 is a website and online tool which helps type in arabic language in case you have no arabic keyboard attached to your computer </subtitle>
   <link href="https://www.arabickeyboard360.com/atom.xml" rel="self"/>
   <link href="https://www.arabickeyboard360.com/" rel="alternate" type="text/html"/>
-  <updated>2017-02-03T16:14:06+00:00</updated>
+  <updated>2017-05-08T18:44:10+01:00</updated>
   <id>https://www.arabickeyboard360.com/</id>
   <author>
     <name></name>
@@ -15,6 +15,54 @@
     
   </author>
 
+  
+  <entry>
+    <title>How to add an arabic keyboard to MAC</title>
+    <link href="https://www.arabickeyboard360.com/arabic-keyboard-mac/"/>
+    <updated>2017-04-01T00:00:00+01:00</updated>
+    <id>https://www.arabickeyboard360.com/arabic-keyboard-mac</id>
+    <author>
+      <name></name>
+      <uri>https://www.arabickeyboard360.com/</uri>
+      
+    </author>
+    <content type="html">
+      
+      &lt;p&gt;If you need to write in Arabic language but you don’t have a physical keyboard with Arabic letters attached to 
+your computer ,you can simply use a virtual Arabic keyboard by folowing a few and easy steps .&lt;/p&gt;
+
+&lt;p&gt;In this article ,i’m going to show the steps to display the virtual Arabic keyboard on your MAC system so lets 
+get started .&lt;/p&gt;
+
+&lt;p&gt;You can also buy an Arabic keyboard from different online stores such as Amazon or eBay .&lt;/p&gt;
+
+&lt;p&gt;In this post i’m explaining how to display an Arabic keyboard on MAC 10.10 (Yosemite) but the steps can also 
+applied to any previous version of MAC with minor changes .&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-add-an-arabic-keyboard-&quot;&gt;How to add an Arabic keyboard ?&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;1 . First go to your system preferences .&lt;/p&gt;
+
+&lt;p&gt;2 . Next choose Keyboard (On the second row ).&lt;/p&gt;
+
+&lt;p&gt;3 . On the Keyboard window choose the Input sources tab .&lt;/p&gt;
+
+&lt;p&gt;4 . Look for Arabic language and click on add button .&lt;/p&gt;
+
+&lt;p&gt;You can also select “Show Input menu in the menu bar” to be able to switch between all added languages 
+via the system menu bar .&lt;/p&gt;
+
+&lt;p&gt;So now we have seen how to add an Arabic keyboard on our system but since we don’t have a physical keyboard 
+with Arabic characters attached to our system we need to use a virtual keyboard which can be done very easily 
+with a few clicks of your mouse .&lt;/p&gt;
+
+&lt;h2 id=&quot;displaying-virtual-arabic-keyboard-on-mac&quot;&gt;Displaying virtual Arabic keyboard on MAC&lt;/h2&gt;
+&lt;hr /&gt;
+
+
+    </content>
+  </entry>
   
   <entry>
     <title>Using the arabic keyboard Opera extension</title>
